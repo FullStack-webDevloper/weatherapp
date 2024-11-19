@@ -2,7 +2,7 @@
 import { useState } from "react";
 import SearchBox from "./SearchBox";
 // eslint-disable-next-line no-unused-vars
-import InfoBox from "./infoBox";
+import InfoBox from "./InfoBox";
 
 export default function WeatherApp(){
     const [ weatherInfo, setweatherInfo] = useState({
